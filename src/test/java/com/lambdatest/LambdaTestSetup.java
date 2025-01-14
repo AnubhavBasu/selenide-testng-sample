@@ -124,12 +124,12 @@ public class LambdaTestSetup {
 
 		username = System.getenv("LT_USERNAME");
 		if (username == null) {
-			username = (String) config.get("user");
+			username = "anubhavb";
 		}
 
 		accessKey = System.getenv("LT_ACCESS_KEY");
 		if (accessKey == null) {
-			accessKey = (String) config.get("key");
+			accessKey = "jfIpDzBoFpX3ZMxwDCOsz1b8qlvo8npozRHsLqpeifQoOwiLDK";
 		}
 
 		driver = new RemoteWebDriver(
