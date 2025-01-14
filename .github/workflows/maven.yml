@@ -15,8 +15,8 @@ on:
     branches: [ "master" ]
 
 env:  
-  LT_USERNAME: ${{ secrets.LT_USERNAME }}
-  LT_ACCESS_KEY: ${{ secrets.LT_ACCESS_KEY }}
+  LT_USERNAME: "anubhavb"
+  LT_ACCESS_KEY: "jfIpDzBoFpX3ZMxwDCOsz1b8qlvo8npozRHsLqpeifQoOwiLDK"
 
 jobs:
   build:
